@@ -1,0 +1,43 @@
+body {
+    background-color: #e4e6eb;
+    font-family: "Assistant", sans-serif;
+    color: #071c4d;
+}
+
+.navbar-brand {
+    img {
+        max-height: 40px;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #071c4d;
+
+            &.active {
+                font-weight: bold;
+                color: #071c4d !important;
+            }
+        }
+    }
+}
+
+.btn-login {
+    background-color: #071c4d;
+    color: #ffff;
+
+    &:hover {
+        background-color: #1e3771;
+        color: #ffff;
+    }
+}
+
+.btn-navbar-right {
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+
+    height: 70px;
+    border-radius: 0;
+}
