@@ -4,6 +4,7 @@ body {
     color: #071c4d;
 }
 
+//Navbar
 .navbar-brand {
     img {
         max-height: 40px;
@@ -40,4 +41,59 @@ body {
 
     height: 70px;
     border-radius: 0;
+}
+
+//header
+header {
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url("../images/header_2.jpg");
+    background-size: cover;
+
+    h1,
+    p {
+        color: #fff;
+    }
+
+    h1 {
+        font-family: "Playfair Display", serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+    .btn-get-started {
+        background-color: #ff9e53;
+        color: #fff;
+
+        &:hover {
+            background-color: #ffaa69;
+            color: #fff;
+        }
+    }
+}
+
+//section
+.section-stats {
+    margin-top: -50px;
+
+    .stats-detail {
+        padding-top: 15px;
+        background-color: #fff;
+        padding-left: 40px;
+    }
+
+    h2 {
+        color: #071c4d;
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    p {
+        color: #071c4d;
+        font-size: 20px;
+        font-weight: lighter;
+    }
 }

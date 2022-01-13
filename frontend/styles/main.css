@@ -31,4 +31,50 @@ body {
   margin-right: -18px !important;
   height: 70px;
   border-radius: 0;
+}
+
+header {
+  padding: 180px 0 165px;
+  margin-top: -70px;
+  background-image: url("../images/header_2.jpg");
+  background-size: cover;
+}
+header h1,
+header p {
+  color: #fff;
+}
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+header p {
+  font-size: 22px;
+}
+header .btn-get-started {
+  background-color: #ff9e53;
+  color: #fff;
+}
+header .btn-get-started:hover {
+  background-color: #ffaa69;
+  color: #fff;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 40px;
+}
+.section-stats h2 {
+  color: #071c4d;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+.section-stats p {
+  color: #071c4d;
+  font-size: 20px;
+  font-weight: lighter;
 }/*# sourceMappingURL=main.css.map */
